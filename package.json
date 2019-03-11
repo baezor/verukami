@@ -1,0 +1,14 @@
+{
+  "name": "verukami",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html"
+  },
+  "repository": "git@github.com:baezor/verukami.git",
+  "author": "Angel Baez <angel@uptrending.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.0"
+  }
+}
