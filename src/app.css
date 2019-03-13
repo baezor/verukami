@@ -252,9 +252,86 @@ mix-blend-mode: normal;
   max-width: 500px;
 }
 
+.footer-title {
+
+  font-family: Noto Sans JP;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+font-size: 8rem;
+text-align: center;
+
+/* Gradient2 */
+mix-blend-mode: normal;
+
+background: url(img/radial-gradient.png) no-repeat center;
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.mail-link {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3rem;
+  font-size: 2.2rem;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  color: #F5F7F7;
+  margin: 3.5rem 0;
+}
+
+.link {
+
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3rem;
+  font-size: 2.2rem;
+  text-align: center;
+  letter-spacing: 0.05em;
+  mix-blend-mode: normal;
+  display: inline-block;
+  text-decoration: none;
+  mix-blend-mode: normal;
+  background: linear-gradient(246.8deg, #F7BFFD 0%, #DACEFF 33.66%, #C1DBFF 63.75%, #AAE9EF 100%);
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-links {
+  margin: 3rem 0 0 0;
+}
+.footer-links a {
+  margin: 0 30px;
+}
 
 
 @media (max-width: 767px){
+  .block-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10rem 4.5rem;
+  }
+
+  .column-reverse-mobile {
+    flex-direction: column-reverse;
+  }
+
+  .block-float-title {
+    top: 7.5rem;
+    left: 4.5rem;
+  }
+
+  .block-image, .block-meta {
+    width: 100%;
+    padding: 2rem 0;
+  }
+  
 
   .hero-big-circle  {
     display: none;
