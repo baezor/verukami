@@ -388,3 +388,50 @@ background: url(img/radial-gradient.png) no-repeat center;
   }
 }
 
+.circle {
+  border-radius: 50%;
+  position: absolute;
+}
+.circle.is-1 {
+  width: 60px;
+  height: 60px;
+  background-color: #DACEFF;
+  top: 50px;
+  left: 100px;
+}
+.circle.is-2 {
+  width: 24px;
+  height: 24px;
+  background-color: #AAE9EF;
+  top: 200px;
+  left: 300px;
+}
+.circle.is-3 {
+  width: 32px;
+  height: 32px;
+  background-color: #25BEDD;
+  bottom: 300px;
+  left: 350px;
+}
+.circle.is-4 {
+  width: 24px;
+  height: 24px;
+  background-color: #BD7CF0;
+  top: 150px;
+  left: 550px;
+}
+.circle.is-5 {
+  width: 14px;
+  height: 14px;
+  background-color: #BD7CF0;
+  top: 160px;
+  right: 330px;
+}
+.circle.is-6 {
+  width: 30px;
+  height: 30px;
+  background-color: #F850ED;
+  top: 420px;
+  right: 100px;
+}
+
