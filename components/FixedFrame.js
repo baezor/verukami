@@ -8,6 +8,7 @@ const Container = styled.div`
   right: 0;
   bottom: 0;
   z-index: 1;
+  pointer-events: none;
   border: 46px solid ${ props => props.theme.fixedFrame };
 `
 
