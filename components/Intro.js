@@ -11,8 +11,8 @@ const Container = styled.section`
 `
 const Wrapper = styled.div`
   background-color: ${ props => props.theme.colors.background };
-  width: calc(100% - 94px);
-  height: calc(100vh - 94px);
+  width: 100%;
+  height: 100vh;
   display: flex;
   align-items: center; 
   flex-direction: column;
