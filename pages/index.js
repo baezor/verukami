@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import Intro from '../components/Intro';
+import WorkPreview from '../components/WorkPreview';
 import FixedFrame from '../components/FixedFrame';
 import styled from '@emotion/styled';
 
@@ -15,6 +16,8 @@ class Index extends React.Component {
       <Container>
         <FixedFrame/>
         <Intro />
+        <WorkPreview layout={'textFirst'} />
+        <WorkPreview layout={'MediaFirst'} />
         <Intro />
       </Container>
     )
