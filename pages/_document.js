@@ -61,11 +61,44 @@ class MyDocument extends Document {
           blockquote, q {
             quotes: none;
           }
-          
           table {
             border-collapse: collapse;
             border-spacing: 0;
           }
+          .img-responsive {
+            max-width: 100%;
+            height: auto;
+          }
+
+          h2 {
+            font-family: 'Space Mono', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 53px;
+            font-size: 30px;
+            letter-spacing: 0.05em;
+            mix-blend-mode: luminosity;
+            color: #1C2426;
+            margin-bottom: 2rem;
+          }
+          
+          .meta-title {
+            font-family: Work Sans, sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 25px;
+            font-size: 1.4rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #1C2426;
+            mix-blend-mode: luminosity;
+          }
+          
+          
+          .bold {
+            font-weight: 600 !important;
+          }
+        
           `}
           </style>
         </Head>
